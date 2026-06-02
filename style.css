@@ -47,19 +47,23 @@ img:hover {
 }
 
 .topnav a {
-  color: #999;
+  color: #e0e0e0;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 600;
-  transition: 0.3s;
+  transition: all 0.4s ease;
+  padding-bottom: 5px;
 }
 
-.topnav a:hover, .topnav a.active {
-  color: #fff;
+.topnav a:hover {
+  color: #e74c3c;
+  text-shadow: 0 0 8px #e74c3c;
 }
 
 .topnav a.active {
-  border-bottom: 2px solid #007bff;
+  color: #2ecc71;
+  border-bottom: 3px solid #2ecc71;
+  text-shadow: 0 0 10px #2ecc71;
 }
 
 section {
