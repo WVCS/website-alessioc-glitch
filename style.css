@@ -1,3 +1,103 @@
 body {
+  margin: 0;
+  background-color: #3498db; 
+  font-family: sans-serif;
+}
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 42px;
+  transition: 0.3s ease;
+}
+
+h2:hover {
+  text-shadow: 0 0 7px green;
+  transform: scale(1.05);
+  color: #fff;
+}
+
+img {
+  width: 200px;
+  border: purple 12px dotted;
+  transition: 0.3s ease;
+}
+
+img:hover {
+  border: purple 12px dashed;
+  transform: scale(1.1) rotate(5deg);
+  filter: drop-shadow(0 0 15px purple);
+}
+
+.topnav {
+  background: #1a1a1a;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-family: sans-serif;
+}
+
+.topnav a {
+  color: #999;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.topnav a:hover, .topnav a.active {
+  color: #fff;
+}
+
+.topnav a.active {
+  border-bottom: 2px solid #007bff;
+}
+
+section {
+  max-width: 600px;
+  margin-top: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+section h3 {
+  font-family: 'Trebuchet MS', sans-serif;
+  margin-top: 0;
+  font-size: 24px;
+}
+
+section p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background: #1a1a1a;
+  color: #fff;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+footer {
+  margin-top: 60px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
 }
